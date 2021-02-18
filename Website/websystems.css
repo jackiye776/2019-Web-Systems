@@ -1,0 +1,272 @@
+/* HTML */
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height: 1.6;
+	display: block;
+	padding: 0;
+	margin: 0;
+	background: #af8165;
+}
+
+div {
+	display: block;
+}
+
+
+/* imagebox */
+
+.imagebox {
+	background: url("images/wildflowers.jpg");
+	/* Background was photoshopped by Lim J. using Tom petty's 'wildflowers' albumn cover and Lewis's photography. All property belongs to respective owners.
+	Lewis, C. 2017, WA wildflowers at Coalseam Conservation Park, ABC News, viewed 24 April 2019, <https://www.abc.net.au/news.2016-09-03/wa-wildflowers-at-coalseam-national-park/7811964>. */
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 100%;
+	height: 250px;
+}
+
+.imagebox p {
+	margin: 0;
+	opacity: 0.2;
+}
+
+/* header  */
+
+.header {
+	background: #952D2C;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	min-height: 65px;
+	border-top: 8px solid #5A3A24;
+	border-bottom: 8px solid #5A3A24;
+}
+
+.background {
+	width: 75%;
+	margin: auto;
+}
+
+.logo {
+	float: left;
+	width: auto;
+}
+
+.logo img {
+	height: auto;
+	width: 30%;
+	padding-left: 5px;
+}
+
+.column {
+	float: left;
+	height: 900px;
+	position: relative;
+}
+
+.left, .right {
+	width: 3.5%;
+	background: #312724;
+}
+
+.navbar {
+	float: right;
+	padding-top: 20px;
+}
+
+.navbar .currently {
+	color: #000077;
+	text-decoration: underline;
+}
+
+.header ul {
+	margin: 0;
+}
+
+.header li {
+	float: left;
+	display: inline;
+	margin: 2px;
+}
+
+.header a {
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	padding: 12px;
+	border: 3px solid #312724;
+	border-radius: 10px;
+	color: white;
+	background-color: #9B725A;
+}
+
+.header::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* columns
+   The code for the three column layout and clear was provided from w3schools.com
+   I modified it to fit my own purpose.
+   w3schools.com n.d., How to - three column layout, w3schools.com, viewed 24 April 2019, <https://www.w3schools.com/howto/howto_css_there_columns.asp>.
+*/
+
+.column {
+	float: left;
+	height: 900px;
+	position: relative;
+}
+
+.left, .right {
+	width: 3.5%;
+	background: #312724;
+}
+
+/* v USED ONLY IN COMMENTS PAGE v */
+.columns {
+	float: left;
+	height: 2700px;
+	position: relative;
+}
+
+.lefts, .rights {
+	width: 3.5%;
+	background: #312724;
+}
+/* ^ USED ONLY IN COMMENTS PAGE ^ */
+
+.mid {
+	width: 93%;
+	background: #af8165;
+	height: auto;
+}
+
+.mid .content{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.mid .content .image {
+	padding-top: 20px;
+	padding-bottom: 100px;
+	min-height: 50px;
+}
+
+.mid .content .image h1{
+	float: left;
+	padding-top: 20px;
+}
+
+.mid .content .image img{
+	float: right;
+	width: 45%;
+	height: 170px;
+	margin-top: 5px;
+	border: 3px #62493D solid;
+
+}
+
+.mid h2 {
+	color: white;
+	font-size: 1.7em;
+}
+
+.mid p, .mid li {
+	font-size: 1.3em;
+}
+
+.title {
+	color: #caff00;
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0;
+	
+}
+
+/* table - still part of columns*/ 
+
+.mid table, th{
+	border: 2px #62493D solid;
+	padding: 1px;
+	font-size: 1.11em;
+	font-weight: normal;
+}
+
+.mid th {
+	padding: 4px;
+}
+
+#tablehead {
+	color: white;
+}
+
+.columnbody::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* footer */
+
+.footer {
+	background: #952D2C;
+	width: 100%;
+	padding-top: 15px;
+	border-top: 8px solid #5A3A24;
+	border-bottom: 8px solid #5A3A24;
+	bottom: 0;
+	min-height: 50px;
+}
+
+.navbarBottom {
+	text-align: center;
+	font-size: 15px;
+}
+
+.navbarBottom .currently{
+	color: #000077;
+	text-decoration: underline;
+}
+
+.footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footer li {
+	text-align: center;
+	display: inline;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: 20px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Part of footer 
+   ID - copyright */
+
+#copyright {
+	text-align: center;
+	text-decoration: underline;
+	padding: 5px;
+}
+
+#copyright .bold {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
